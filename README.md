@@ -1,3 +1,32 @@
+---
+language:
+- zh
+- en
+license: mit
+multilinguality:
+- translation
+task_categories:
+- translation
+- feature-extraction
+- text-classification
+tags:
+- engineering
+- civil-engineering
+- construction
+- standards
+- terminology
+- bilingual
+- chinese-standards
+- sqlite
+size_categories:
+- 1K<n<10K
+configs:
+- config_name: default
+  data_files:
+  - split: train
+    path: data/train.parquet
+---
+
 # 中国工程建设标准双语专业术语库 (Chinese Standards Bilingual Term Bank)
 
 <p align="center">
@@ -78,7 +107,15 @@ python query.py --term "门窗" --json
 
 ### 2. Python 代码集成
 
-你也可以在自己的工程中直接使用标准库 `sqlite3` 读取数据库：
+#### 方式 A：通过 Hugging Face `datasets` 库一键加载 (推荐 AI 训练)
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("banchengfengyu/chinese-standards-termbank")
+print(dataset["train"][0])
+```
+
+#### 方式 B：本地直接使用 `sqlite3` 查询 (推荐离线开发)
 
 ```python
 import sqlite3
