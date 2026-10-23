@@ -41,6 +41,8 @@ configs:
 
 涵盖 **水文、电力、工程结构、供暖通风与空调、铁路工程、岩土工程、城市公共交通、生态环保** 等 **94 个细分工程领域**，汇聚 **32 部国家与行业权威规范**，收录了 **9,665+ 条具备条款级精确定位、权威度评分和双向检索加速的专业术语**。
 
+> 💖 **开源不易，求个 Star 支持**：如果这个项目在工程翻译、标准查阅、涉外合同编制或大模型微调中帮到了你，请随手点一个 ⭐ **Star** (GitHub) 或 ❤️ **Like** (Hugging Face)！你的认可是作者持续整理与维护的最大动力！
+
 ---
 
 ## 🌟 核心亮点
@@ -226,7 +228,9 @@ conn.close()
 
 ---
 
-## 🤝 鸣谢与反馈
+## 🤝 支持与反馈 (Support & Feedback)
 
-如果你在工程翻译、标准编制、大模型专业领域微调中使用了本项目，欢迎给仓库点个 ⭐ **Star**！  
-如有词条勘误或标准扩充建议，欢迎提交 Issue 或 Pull Request。
+如果本项目对你的学习、工程实践或科研开发有所帮助，欢迎支持作者：
+* ⭐️ **GitHub**：欢迎前往 [GitHub 仓库](https://github.com/banchengfengyu-maker/chinese-standards-termbank) 点个 **Star** 支持！
+* ❤️ **Hugging Face**：欢迎前往 [Hugging Face 页面](https://huggingface.co/datasets/banchengfengyu/chinese-standards-termbank) 点击右上角 **Like**！
+* 💡 **交流共建**：如有词条勘误、翻译优化或新国标扩充建议，欢迎提交 Issue 或 Pull Request！
